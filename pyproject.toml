@@ -1,5 +1,5 @@
 [project]
-name = "machine-learning"
+name = "python-app-simple-machine-learning"
 version = "0.1.0"
 description = "Machine Learning project using python"
 readme = "README.md"

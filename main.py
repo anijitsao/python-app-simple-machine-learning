@@ -14,14 +14,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-"""
-TO DO:
-    - Regression
-    - Multiple Box Plots for EDA
-    - LightGBM Model Building, train, scores etc.
-    - Save models using joblib 
-    - FastAPI routes to serve Predictions    
-
-"""

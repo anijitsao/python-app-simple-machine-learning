@@ -43,6 +43,9 @@ source .venv/bin/activate  # Linux
 # Install various dependencies
 uv add pandas # for a single package
 uv add seaborn xgboost joblib # for multiple packages
+
+# To generate the lock file
+uv lock
 ```
 
 When you have cloned the repository from GitHub and want to install those dependencies (in that case you already have the `pyproject.toml` file) please use the following commands.
@@ -88,4 +91,3 @@ uv run fastapi run app.py # production
 ```
 
 :rocket: Now please go to [http://localhost:8000/docs](http://localhost:8000/docs) and play with the APIs.
-
